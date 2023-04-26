@@ -1,0 +1,188 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+form{
+    background-color:rgb(248, 251, 253);
+    width: 20rem;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.heading{
+    display: flex;
+    gap: 11.5rem;
+    align-items: center;
+}
+
+.heading2{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.heading2 p{
+    margin-top: -20px;
+}
+
+.left-card{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+#phone{
+    margin-left: -15px;
+    width: 9.5rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+#mail{
+    width: 8rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    padding-left: 2rem;
+   
+}
+
+#mail:focus{
+    background-color: blue;
+}
+
+#phone:focus{
+    background-color: blue;
+}
+    
+
+form input{
+    width: 18.2rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.mag{
+  text-align: center;
+}
+
+
+
+.bulb img{
+    margin-top: -40spx;
+}
+
+.firstinput{
+    display: flex;
+    justify-content: center;
+    width: 19.5rem;
+ }
+ 
+ .firstinput .link {
+     background-color: white;
+     width: 20.2rem;
+     height: 3rem;
+     border-radius: 0.5rem;
+     text-align: center;
+     padding-top: 0.7rem;
+     border-radius: 0.5rem 0rem 0rem 0.5rem;
+    
+ 
+ }
+ .firstinput .link2 {
+     background-color: white;
+     width: 20.2rem;
+     height: 3rem;
+     border-radius: 0rem 0.5rem 0.5rem 0rem;
+     margin-left: -2rem;
+     padding-top: 0.7rem;
+     text-align: center;
+ }
+ 
+ .firstinput .link2:hover{
+     background-color: blue; 
+     color: white;
+ }
+ 
+ .firstinput .link:hover{
+     background-color: blue;
+     
+ }
+ 
+ .firstinput .link a{
+     text-decoration: none;
+ }
+ 
+ .firstinput .link2 a{
+     text-decoration: none;
+ }
+ 
+ .firstinput .link a:hover{
+     color: white;
+ }
+ .firstinput .link2 a:hover{
+     color: white;
+ }
+#password{
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    color: skyblue;
+}
+
+#firstp{
+    font-size: 0.7rem;
+ 
+}
+
+#secondp{
+    text-align: center;
+    color: #858585;
+}
+#thirdp{
+    text-align: center;
+}
+
+#myInput{
+    padding-left: 1rem;
+}
+#btn{
+    width: 19.5rem;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+#btn3{
+    width: 7.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.success-message{
+    display: none;
+    background-color: white;
+    text-align: center;
+    height: 8rem;
+    padding-top: 1rem;
+    margin-top: -7rem;
+}
+
+#btn2{
+    width: 5rem;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
